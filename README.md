@@ -1,6 +1,6 @@
 # About
 
-This Xcode project demonstrates that a testing target cannot build to run on a real device when [SwiftHamcrest](https://github.com/nschum/SwiftHamcrest) is added to the target via Cocoapods in the standard manner.
+This Xcode project demonstrates that a testing target cannot build to run on a real device when [SwiftHamcrest](https://github.com/nschum/SwiftHamcrest) version 2.2 is added to the target via Cocoapods in the standard manner.
 
 The Xcode build error that is omitted is as follows:
 
