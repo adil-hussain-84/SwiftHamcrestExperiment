@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F7C8A32C654D113F7832C3C /* Pods_SwiftHamcrestExperimentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027FBC07FEB6EAAEED9371FD /* Pods_SwiftHamcrestExperimentUITests.framework */; };
+		7EA8BA5A8B8B9864C3051753 /* Pods_SwiftHamcrestExperimentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0102F75C432F4574E4133F9C /* Pods_SwiftHamcrestExperimentTests.framework */; };
 		BCC86FA72502BA20004E625C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC86FA62502BA20004E625C /* AppDelegate.swift */; };
 		BCC86FA92502BA20004E625C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC86FA82502BA20004E625C /* SceneDelegate.swift */; };
 		BCC86FAB2502BA20004E625C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC86FAA2502BA20004E625C /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		BCC86FB32502BA23004E625C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC86FB12502BA23004E625C /* LaunchScreen.storyboard */; };
 		BCC86FBE2502BA23004E625C /* SwiftHamcrestExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC86FBD2502BA23004E625C /* SwiftHamcrestExperimentTests.swift */; };
 		BCC86FC92502BA23004E625C /* SwiftHamcrestExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC86FC82502BA23004E625C /* SwiftHamcrestExperimentUITests.swift */; };
+		D13E12ECB74DAE4AA5DE8CB8 /* Pods_SwiftHamcrestExperiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC84C2135FD390A6DEF359BF /* Pods_SwiftHamcrestExperiment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0102F75C432F4574E4133F9C /* Pods_SwiftHamcrestExperimentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftHamcrestExperimentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		027FBC07FEB6EAAEED9371FD /* Pods_SwiftHamcrestExperimentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftHamcrestExperimentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05AF3C23E6480B2F28FCC318 /* Pods-SwiftHamcrestExperimentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHamcrestExperimentTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftHamcrestExperimentTests/Pods-SwiftHamcrestExperimentTests.release.xcconfig"; sourceTree = "<group>"; };
+		3CAF50576C0FAC03F0C3EE1C /* Pods-SwiftHamcrestExperiment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHamcrestExperiment.debug.xcconfig"; path = "Target Support Files/Pods-SwiftHamcrestExperiment/Pods-SwiftHamcrestExperiment.debug.xcconfig"; sourceTree = "<group>"; };
+		AC84C2135FD390A6DEF359BF /* Pods_SwiftHamcrestExperiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftHamcrestExperiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6179D8B476087941AF70346 /* Pods-SwiftHamcrestExperimentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHamcrestExperimentTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftHamcrestExperimentTests/Pods-SwiftHamcrestExperimentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BCC86FA32502BA20004E625C /* SwiftHamcrestExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftHamcrestExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC86FA62502BA20004E625C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCC86FA82502BA20004E625C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		BCC86FC42502BA23004E625C /* SwiftHamcrestExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftHamcrestExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC86FC82502BA23004E625C /* SwiftHamcrestExperimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHamcrestExperimentUITests.swift; sourceTree = "<group>"; };
 		BCC86FCA2502BA23004E625C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1CD131AC624EE79B572670 /* Pods-SwiftHamcrestExperiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHamcrestExperiment.release.xcconfig"; path = "Target Support Files/Pods-SwiftHamcrestExperiment/Pods-SwiftHamcrestExperiment.release.xcconfig"; sourceTree = "<group>"; };
+		E7FF703207DECE6C03EDB868 /* Pods-SwiftHamcrestExperimentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHamcrestExperimentUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftHamcrestExperimentUITests/Pods-SwiftHamcrestExperimentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F81E0C9787B1678D00F02855 /* Pods-SwiftHamcrestExperimentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHamcrestExperimentUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftHamcrestExperimentUITests/Pods-SwiftHamcrestExperimentUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D13E12ECB74DAE4AA5DE8CB8 /* Pods_SwiftHamcrestExperiment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EA8BA5A8B8B9864C3051753 /* Pods_SwiftHamcrestExperimentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F7C8A32C654D113F7832C3C /* Pods_SwiftHamcrestExperimentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		508A94D359FD640A427237B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC84C2135FD390A6DEF359BF /* Pods_SwiftHamcrestExperiment.framework */,
+				0102F75C432F4574E4133F9C /* Pods_SwiftHamcrestExperimentTests.framework */,
+				027FBC07FEB6EAAEED9371FD /* Pods_SwiftHamcrestExperimentUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BCC86F9A2502BA20004E625C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				BCC86FBC2502BA23004E625C /* SwiftHamcrestExperimentTests */,
 				BCC86FC72502BA23004E625C /* SwiftHamcrestExperimentUITests */,
 				BCC86FA42502BA20004E625C /* Products */,
+				ECEAD78F5BBE633A8A00611B /* Pods */,
+				508A94D359FD640A427237B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,19 @@
 			path = SwiftHamcrestExperimentUITests;
 			sourceTree = "<group>";
 		};
+		ECEAD78F5BBE633A8A00611B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CAF50576C0FAC03F0C3EE1C /* Pods-SwiftHamcrestExperiment.debug.xcconfig */,
+				CF1CD131AC624EE79B572670 /* Pods-SwiftHamcrestExperiment.release.xcconfig */,
+				B6179D8B476087941AF70346 /* Pods-SwiftHamcrestExperimentTests.debug.xcconfig */,
+				05AF3C23E6480B2F28FCC318 /* Pods-SwiftHamcrestExperimentTests.release.xcconfig */,
+				E7FF703207DECE6C03EDB868 /* Pods-SwiftHamcrestExperimentUITests.debug.xcconfig */,
+				F81E0C9787B1678D00F02855 /* Pods-SwiftHamcrestExperimentUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCC86FCD2502BA23004E625C /* Build configuration list for PBXNativeTarget "SwiftHamcrestExperiment" */;
 			buildPhases = (
+				ADD8CDA4B1F6CFBE52A73AFF /* [CP] Check Pods Manifest.lock */,
 				BCC86F9F2502BA20004E625C /* Sources */,
 				BCC86FA02502BA20004E625C /* Frameworks */,
 				BCC86FA12502BA20004E625C /* Resources */,
@@ -152,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCC86FD02502BA23004E625C /* Build configuration list for PBXNativeTarget "SwiftHamcrestExperimentTests" */;
 			buildPhases = (
+				000CE45F71C2FD81965F280A /* [CP] Check Pods Manifest.lock */,
 				BCC86FB52502BA23004E625C /* Sources */,
 				BCC86FB62502BA23004E625C /* Frameworks */,
 				BCC86FB72502BA23004E625C /* Resources */,
+				AC1C6231F22395E612EA5E5F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCC86FD32502BA23004E625C /* Build configuration list for PBXNativeTarget "SwiftHamcrestExperimentUITests" */;
 			buildPhases = (
+				F20DA6F4B97A01D0FEB3514D /* [CP] Check Pods Manifest.lock */,
 				BCC86FC02502BA23004E625C /* Sources */,
 				BCC86FC12502BA23004E625C /* Frameworks */,
 				BCC86FC22502BA23004E625C /* Resources */,
+				2B27E48E65CF7FF64BC9CE77 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		000CE45F71C2FD81965F280A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftHamcrestExperimentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B27E48E65CF7FF64BC9CE77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftHamcrestExperimentUITests/Pods-SwiftHamcrestExperimentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftHamcrestExperimentUITests/Pods-SwiftHamcrestExperimentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftHamcrestExperimentUITests/Pods-SwiftHamcrestExperimentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC1C6231F22395E612EA5E5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftHamcrestExperimentTests/Pods-SwiftHamcrestExperimentTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftHamcrestExperimentTests/Pods-SwiftHamcrestExperimentTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftHamcrestExperimentTests/Pods-SwiftHamcrestExperimentTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADD8CDA4B1F6CFBE52A73AFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftHamcrestExperiment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F20DA6F4B97A01D0FEB3514D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftHamcrestExperimentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BCC86F9F2502BA20004E625C /* Sources */ = {
@@ -372,6 +520,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -424,12 +573,14 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		BCC86FCE2502BA23004E625C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CAF50576C0FAC03F0C3EE1C /* Pods-SwiftHamcrestExperiment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,12 +592,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tazkiyatech.SwiftHamcrestExperiment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		BCC86FCF2502BA23004E625C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF1CD131AC624EE79B572670 /* Pods-SwiftHamcrestExperiment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,12 +609,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tazkiyatech.SwiftHamcrestExperiment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		BCC86FD12502BA23004E625C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6179D8B476087941AF70346 /* Pods-SwiftHamcrestExperimentTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -476,13 +627,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tazkiyatech.SwiftHamcrestExperimentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftHamcrestExperiment.app/SwiftHamcrestExperiment";
 			};
 			name = Debug;
 		};
 		BCC86FD22502BA23004E625C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05AF3C23E6480B2F28FCC318 /* Pods-SwiftHamcrestExperimentTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -495,13 +646,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tazkiyatech.SwiftHamcrestExperimentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftHamcrestExperiment.app/SwiftHamcrestExperiment";
 			};
 			name = Release;
 		};
 		BCC86FD42502BA23004E625C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7FF703207DECE6C03EDB868 /* Pods-SwiftHamcrestExperimentUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftHamcrestExperimentUITests/Info.plist;
@@ -513,13 +664,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tazkiyatech.SwiftHamcrestExperimentUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SwiftHamcrestExperiment;
 			};
 			name = Debug;
 		};
 		BCC86FD52502BA23004E625C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F81E0C9787B1678D00F02855 /* Pods-SwiftHamcrestExperimentUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftHamcrestExperimentUITests/Info.plist;
@@ -531,7 +682,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tazkiyatech.SwiftHamcrestExperimentUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SwiftHamcrestExperiment;
 			};
 			name = Release;
