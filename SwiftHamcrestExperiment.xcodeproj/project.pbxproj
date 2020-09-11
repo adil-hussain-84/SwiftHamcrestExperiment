@@ -17,7 +17,6 @@
 		BCC86FB32502BA23004E625C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC86FB12502BA23004E625C /* LaunchScreen.storyboard */; };
 		BCC86FBE2502BA23004E625C /* SwiftHamcrestExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC86FBD2502BA23004E625C /* SwiftHamcrestExperimentTests.swift */; };
 		BCC86FC92502BA23004E625C /* SwiftHamcrestExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC86FC82502BA23004E625C /* SwiftHamcrestExperimentUITests.swift */; };
-		D13E12ECB74DAE4AA5DE8CB8 /* Pods_SwiftHamcrestExperiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC84C2135FD390A6DEF359BF /* Pods_SwiftHamcrestExperiment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +40,6 @@
 		0102F75C432F4574E4133F9C /* Pods_SwiftHamcrestExperimentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftHamcrestExperimentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		027FBC07FEB6EAAEED9371FD /* Pods_SwiftHamcrestExperimentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftHamcrestExperimentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		05AF3C23E6480B2F28FCC318 /* Pods-SwiftHamcrestExperimentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHamcrestExperimentTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftHamcrestExperimentTests/Pods-SwiftHamcrestExperimentTests.release.xcconfig"; sourceTree = "<group>"; };
-		3CAF50576C0FAC03F0C3EE1C /* Pods-SwiftHamcrestExperiment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHamcrestExperiment.debug.xcconfig"; path = "Target Support Files/Pods-SwiftHamcrestExperiment/Pods-SwiftHamcrestExperiment.debug.xcconfig"; sourceTree = "<group>"; };
-		AC84C2135FD390A6DEF359BF /* Pods_SwiftHamcrestExperiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftHamcrestExperiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6179D8B476087941AF70346 /* Pods-SwiftHamcrestExperimentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHamcrestExperimentTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftHamcrestExperimentTests/Pods-SwiftHamcrestExperimentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BCC86FA32502BA20004E625C /* SwiftHamcrestExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftHamcrestExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC86FA62502BA20004E625C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +55,6 @@
 		BCC86FC42502BA23004E625C /* SwiftHamcrestExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftHamcrestExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC86FC82502BA23004E625C /* SwiftHamcrestExperimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHamcrestExperimentUITests.swift; sourceTree = "<group>"; };
 		BCC86FCA2502BA23004E625C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF1CD131AC624EE79B572670 /* Pods-SwiftHamcrestExperiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHamcrestExperiment.release.xcconfig"; path = "Target Support Files/Pods-SwiftHamcrestExperiment/Pods-SwiftHamcrestExperiment.release.xcconfig"; sourceTree = "<group>"; };
 		E7FF703207DECE6C03EDB868 /* Pods-SwiftHamcrestExperimentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHamcrestExperimentUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftHamcrestExperimentUITests/Pods-SwiftHamcrestExperimentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F81E0C9787B1678D00F02855 /* Pods-SwiftHamcrestExperimentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHamcrestExperimentUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftHamcrestExperimentUITests/Pods-SwiftHamcrestExperimentUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D13E12ECB74DAE4AA5DE8CB8 /* Pods_SwiftHamcrestExperiment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +89,6 @@
 		508A94D359FD640A427237B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AC84C2135FD390A6DEF359BF /* Pods_SwiftHamcrestExperiment.framework */,
 				0102F75C432F4574E4133F9C /* Pods_SwiftHamcrestExperimentTests.framework */,
 				027FBC07FEB6EAAEED9371FD /* Pods_SwiftHamcrestExperimentUITests.framework */,
 			);
@@ -158,8 +152,6 @@
 		ECEAD78F5BBE633A8A00611B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3CAF50576C0FAC03F0C3EE1C /* Pods-SwiftHamcrestExperiment.debug.xcconfig */,
-				CF1CD131AC624EE79B572670 /* Pods-SwiftHamcrestExperiment.release.xcconfig */,
 				B6179D8B476087941AF70346 /* Pods-SwiftHamcrestExperimentTests.debug.xcconfig */,
 				05AF3C23E6480B2F28FCC318 /* Pods-SwiftHamcrestExperimentTests.release.xcconfig */,
 				E7FF703207DECE6C03EDB868 /* Pods-SwiftHamcrestExperimentUITests.debug.xcconfig */,
@@ -175,7 +167,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCC86FCD2502BA23004E625C /* Build configuration list for PBXNativeTarget "SwiftHamcrestExperiment" */;
 			buildPhases = (
-				ADD8CDA4B1F6CFBE52A73AFF /* [CP] Check Pods Manifest.lock */,
 				BCC86F9F2502BA20004E625C /* Sources */,
 				BCC86FA02502BA20004E625C /* Frameworks */,
 				BCC86FA12502BA20004E625C /* Resources */,
@@ -354,28 +345,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftHamcrestExperimentTests/Pods-SwiftHamcrestExperimentTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ADD8CDA4B1F6CFBE52A73AFF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftHamcrestExperiment-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F20DA6F4B97A01D0FEB3514D /* [CP] Check Pods Manifest.lock */ = {
@@ -580,7 +549,6 @@
 		};
 		BCC86FCE2502BA23004E625C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CAF50576C0FAC03F0C3EE1C /* Pods-SwiftHamcrestExperiment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -597,7 +565,6 @@
 		};
 		BCC86FCF2502BA23004E625C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF1CD131AC624EE79B572670 /* Pods-SwiftHamcrestExperiment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
